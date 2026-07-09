@@ -6,9 +6,9 @@
             <field name="name">property.contract.tree</field>
             <field name="model">property.contract</field>
             <field name="arch" type="xml">
-                <list string="Gestion Immobilière &amp;amp; Location">
+                <tree string="Gestion Immobilière &amp;amp; Location">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

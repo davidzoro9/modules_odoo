@@ -6,9 +6,9 @@
             <field name="name">portfolio.configurateur.e.commerce.box.cadeaux.tree</field>
             <field name="model">portfolio.configurateur.e.commerce.box.cadeaux</field>
             <field name="arch" type="xml">
-                <list string="Configurateur E-Commerce Box Cadeaux">
+                <tree string="Configurateur E-Commerce Box Cadeaux">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

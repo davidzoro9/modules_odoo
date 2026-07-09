@@ -6,9 +6,9 @@
             <field name="name">portfolio.migration.odoo.v14.a.v17.enterprise.tree</field>
             <field name="model">portfolio.migration.odoo.v14.a.v17.enterprise</field>
             <field name="arch" type="xml">
-                <list string="Migration Odoo v14 à v17 Enterprise">
+                <tree string="Migration Odoo v14 à v17 Enterprise">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

@@ -6,9 +6,9 @@
             <field name="name">hubspot.connector.tree</field>
             <field name="model">hubspot.connector</field>
             <field name="arch" type="xml">
-                <list string="Synchronisation HubSpot CRM - Odoo">
+                <tree string="Synchronisation HubSpot CRM - Odoo">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

@@ -6,9 +6,9 @@
             <field name="name">medical.consultation.tree</field>
             <field name="model">medical.consultation</field>
             <field name="arch" type="xml">
-                <list string="Système de Gestion Clinique Hospitalière">
+                <tree string="Système de Gestion Clinique Hospitalière">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

@@ -6,9 +6,9 @@
             <field name="name">portfolio.portail.candidat.rh.interactif.tree</field>
             <field name="model">portfolio.portail.candidat.rh.interactif</field>
             <field name="arch" type="xml">
-                <list string="Portail Candidat RH Interactif">
+                <tree string="Portail Candidat RH Interactif">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

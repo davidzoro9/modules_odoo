@@ -6,9 +6,9 @@
             <field name="name">portfolio.connecteur.odata.powerbi.odoo.tree</field>
             <field name="model">portfolio.connecteur.odata.powerbi.odoo</field>
             <field name="arch" type="xml">
-                <list string="Connecteur OData PowerBI - Odoo">
+                <tree string="Connecteur OData PowerBI - Odoo">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

@@ -6,9 +6,9 @@
             <field name="name">portfolio.moteur.de.facturation.d.abonnement.tree</field>
             <field name="model">portfolio.moteur.de.facturation.d.abonnement</field>
             <field name="arch" type="xml">
-                <list string="Moteur de Facturation d'Abonnement">
+                <tree string="Moteur de Facturation d'Abonnement">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

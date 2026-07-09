@@ -10,11 +10,11 @@
             <field name="name">moodle.configuration.tree</field>
             <field name="model">moodle.configuration</field>
             <field name="arch" type="xml">
-                <list string="Moodle Configuration">
+                <tree string="Moodle Configuration">
                     <field name="name"/>
                     <field name="moodle_url"/>
                     <field name="is_active"/>
-                </list>
+                </tree>
             </field>
         </record>
 
@@ -65,13 +65,13 @@
             <field name="name">moodle.sync.log.tree</field>
             <field name="model">moodle.sync.log</field>
             <field name="arch" type="xml">
-                <list string="Synchronization Logs" decoration-success="state == 'success'" decoration-danger="state == 'failed'" create="false" edit="false">
+                <tree string="Synchronization Logs" decoration-success="state == 'success'" decoration-danger="state == 'failed'" create="false" edit="false">
                     <field name="date"/>
                     <field name="name"/>
                     <field name="sync_type"/>
                     <field name="direction"/>
                     <field name="state" widget="badge"/>
-                </list>
+                </tree>
             </field>
         </record>
 

@@ -6,9 +6,9 @@
             <field name="name">mobile.push.notification.tree</field>
             <field name="model">mobile.push.notification</field>
             <field name="arch" type="xml">
-                <list string="Application Client Mobile (Flutter)">
+                <tree string="Application Client Mobile (Flutter)">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

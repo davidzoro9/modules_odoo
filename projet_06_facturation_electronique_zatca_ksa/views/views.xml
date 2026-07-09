@@ -6,9 +6,9 @@
             <field name="name">portfolio.facturation.electronique.zatca.ksa.tree</field>
             <field name="model">portfolio.facturation.electronique.zatca.ksa</field>
             <field name="arch" type="xml">
-                <list string="Facturation Électronique ZATCA KSA">
+                <tree string="Facturation Électronique ZATCA KSA">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

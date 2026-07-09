@@ -6,9 +6,9 @@
             <field name="name">portfolio.connecteur.multi.transporteurs.global.tree</field>
             <field name="model">portfolio.connecteur.multi.transporteurs.global</field>
             <field name="arch" type="xml">
-                <list string="Connecteur Multi-Transporteurs Global">
+                <tree string="Connecteur Multi-Transporteurs Global">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

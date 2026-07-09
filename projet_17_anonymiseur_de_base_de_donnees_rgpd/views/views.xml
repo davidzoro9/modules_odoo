@@ -6,9 +6,9 @@
             <field name="name">db.anonymizer.tree</field>
             <field name="model">db.anonymizer</field>
             <field name="arch" type="xml">
-                <list string="Anonymiseur de Base de Données RGPD">
+                <tree string="Anonymiseur de Base de Données RGPD">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

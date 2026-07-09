@@ -6,9 +6,9 @@
             <field name="name">shopify.connector.tree</field>
             <field name="model">shopify.connector</field>
             <field name="arch" type="xml">
-                <list string="Connecteur Shopify Bi-Directionnel">
+                <tree string="Connecteur Shopify Bi-Directionnel">
                     <field name="name"/>
-                </list>
+                </tree>
             </field>
         </record>
 

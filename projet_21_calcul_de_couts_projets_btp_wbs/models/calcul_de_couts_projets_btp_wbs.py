@@ -7,7 +7,7 @@ class ProjectTask(models.Model):
     wbs_code = fields.Char(string='Code WBS (Structure)')
     budget_allocated = fields.Float(string='Budget Alloué')
     cost_materials = fields.Float(string='Coût Matériaux', compute='_compute_actual_costs', store=True)
-    cost_labor = fields.Float(string='Coût Main d'œuvre', compute='_compute_actual_costs', store=True)
+    cost_labor = fields.Float(string='Coût Main d\'œuvre', compute='_compute_actual_costs', store=True)
 
     @api.depends('material_line_ids', 'timesheet_ids')
     def _compute_actual_costs(self):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import models, fields, api
 
-/* API d'écoute de notifications push personnalisées */
+/* API d\'écoute de notifications push personnalisées */
 class MobilePushNotification(models.Model):
     _name = 'mobile.push.notification'
     _description = 'Push Notification Service for Mobile App'

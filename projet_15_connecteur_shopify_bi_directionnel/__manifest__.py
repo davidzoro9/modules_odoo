@@ -1,6 +1,6 @@
 {
     'name': "Connecteur Shopify Bi-Directionnel",
-    'version': "17.1.0",
+    'version': "17.0.17.0",
     'summary': "Synchronisation automatique des stocks de sécurité, images, attributs produits et ventes entre Shopify et Odoo.",
     'category': "Technical/API",
     'depends': ["base","stock","hr"],

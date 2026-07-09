@@ -1,6 +1,6 @@
 {
     'name': "Calcul de Coûts Projets BTP (WBS)",
-    'version': "16.1.0",
+    'version': "17.0.16.0",
     'summary': "Extension du module projet d'Odoo avec structure WBS multi-niveaux pour le suivi des coûts réels de chantiers de construction.",
     'category': "Custom",
     'depends': ["base","account"],

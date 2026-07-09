@@ -1,6 +1,6 @@
 {
     'name': "Facturation Électronique ZATCA KSA",
-    'version': "16.1.0",
+    'version': "17.0.16.0",
     'summary': "Mise en conformité fiscale complète pour l'Arabie Saoudite (ZATCA Phase 2) avec signature XML et QR codes cryptographiques.",
     'category': "Accounting",
     'depends': ["base","account"],

@@ -1,6 +1,6 @@
 {
     'name': "Routage d'AGV en Entrepôt IoT",
-    'version': "16.1.0",
+    'version': "17.0.16.0",
     'summary': "Connexion d'Odoo Inventory à des robots logistiques AGV pour l'optimisation des parcours de picking en temps réel.",
     'category': "Custom",
     'depends': ["base","stock"],

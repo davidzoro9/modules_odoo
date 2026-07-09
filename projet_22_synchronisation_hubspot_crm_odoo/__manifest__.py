@@ -1,6 +1,6 @@
 {
     'name': "Synchronisation HubSpot CRM - Odoo",
-    'version': "15-14.1.0",
+    'version': "17.0.15.14",
     'summary': "Connecteur complet pour l'envoi asynchrone des leads marketing HubSpot vers le pipeline de ventes Odoo.",
     'category': "Technical/API",
     'depends': ["base","hr"],

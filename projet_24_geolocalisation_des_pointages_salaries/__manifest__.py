@@ -1,6 +1,6 @@
 {
     'name': "Géolocalisation des Pointages Salariés",
-    'version': "16.1.0",
+    'version': "17.0.16.0",
     'summary': "Contrôle de conformité de pointage horaire basé sur la géolocalisation GPS du mobile des techniciens itinérants.",
     'category': "Custom",
     'depends': ["base","fleet","hr"],

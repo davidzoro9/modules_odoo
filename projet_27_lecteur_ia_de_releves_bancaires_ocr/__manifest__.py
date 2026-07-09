@@ -1,6 +1,6 @@
 {
     'name': "Lecteur IA de Relevés Bancaires OCR",
-    'version': "16.1.0",
+    'version': "17.0.16.0",
     'summary': "Intégration de modèles de Deep Learning pour l'analyse OCR et le rapprochement comptable automatique des relevés bancaires PDF complexes.",
     'category': "Accounting",
     'depends': ["base","account","mrp"],

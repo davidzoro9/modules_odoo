@@ -1,6 +1,6 @@
 {
     'name': "Terminal POS Restaurant sur Tablette",
-    'version': "18.1.0",
+    'version': "17.0.18.0",
     'summary': "Interface tactile hors-ligne optimisée pour la prise de commande aux tables par les serveurs.",
     'category': "Custom",
     'depends': ["base","sale"],

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Validation et Facturation Feuilles de Temps -->
+        <record id="view_validation_et_facturation_feuilles_de_temps_inherit" model="ir.ui.view">
+            <field name="name">account.analytic.line.inherit</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Validation et Facturation Feuilles de Temps">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

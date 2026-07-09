@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Moteur de Recherche Elasticsearch E-Commerce -->
+        <record id="view_moteur_de_recherche_elasticsearch_e_commerce_inherit" model="ir.ui.view">
+            <field name="name">product.template.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Moteur de Recherche Elasticsearch E-Commerce">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

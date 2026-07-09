@@ -1,0 +1,1 @@
+from . import systeme_de_gestion_clinique_hospitaliere

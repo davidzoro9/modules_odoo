@@ -1,0 +1,1 @@
+from . import anonymiseur_de_base_de_donnees_rgpd

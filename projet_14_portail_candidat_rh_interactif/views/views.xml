@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Portail Candidat RH Interactif -->
+        <record id="view_portail_candidat_rh_interactif_tree" model="ir.ui.view">
+            <field name="name">portfolio.portail.candidat.rh.interactif.tree</field>
+            <field name="model">portfolio.portail.candidat.rh.interactif</field>
+            <field name="arch" type="xml">
+                <list string="Portail Candidat RH Interactif">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Portail Candidat RH Interactif -->
+        <record id="view_portail_candidat_rh_interactif_form" model="ir.ui.view">
+            <field name="name">portfolio.portail.candidat.rh.interactif.form</field>
+            <field name="model">portfolio.portail.candidat.rh.interactif</field>
+            <field name="arch" type="xml">
+                <form string="Portail Candidat RH Interactif">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Portail Candidat RH Interactif -->
+        <record id="action_portail_candidat_rh_interactif" model="ir.actions.act_window">
+            <field name="name">Portail Candidat RH Interactif</field>
+            <field name="res_model">portfolio.portail.candidat.rh.interactif</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

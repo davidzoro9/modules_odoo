@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Connecteur Multi-Transporteurs Global -->
+        <record id="view_connecteur_multi_transporteurs_global_tree" model="ir.ui.view">
+            <field name="name">portfolio.connecteur.multi.transporteurs.global.tree</field>
+            <field name="model">portfolio.connecteur.multi.transporteurs.global</field>
+            <field name="arch" type="xml">
+                <list string="Connecteur Multi-Transporteurs Global">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Connecteur Multi-Transporteurs Global -->
+        <record id="view_connecteur_multi_transporteurs_global_form" model="ir.ui.view">
+            <field name="name">portfolio.connecteur.multi.transporteurs.global.form</field>
+            <field name="model">portfolio.connecteur.multi.transporteurs.global</field>
+            <field name="arch" type="xml">
+                <form string="Connecteur Multi-Transporteurs Global">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Connecteur Multi-Transporteurs Global -->
+        <record id="action_connecteur_multi_transporteurs_global" model="ir.actions.act_window">
+            <field name="name">Connecteur Multi-Transporteurs Global</field>
+            <field name="res_model">portfolio.connecteur.multi.transporteurs.global</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

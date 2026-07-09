@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Connecteur Shopify Bi-Directionnel -->
+        <record id="view_connecteur_shopify_bi_directionnel_tree" model="ir.ui.view">
+            <field name="name">shopify.connector.tree</field>
+            <field name="model">shopify.connector</field>
+            <field name="arch" type="xml">
+                <list string="Connecteur Shopify Bi-Directionnel">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Connecteur Shopify Bi-Directionnel -->
+        <record id="view_connecteur_shopify_bi_directionnel_form" model="ir.ui.view">
+            <field name="name">shopify.connector.form</field>
+            <field name="model">shopify.connector</field>
+            <field name="arch" type="xml">
+                <form string="Connecteur Shopify Bi-Directionnel">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Connecteur Shopify Bi-Directionnel -->
+        <record id="action_connecteur_shopify_bi_directionnel" model="ir.actions.act_window">
+            <field name="name">Connecteur Shopify Bi-Directionnel</field>
+            <field name="res_model">shopify.connector</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

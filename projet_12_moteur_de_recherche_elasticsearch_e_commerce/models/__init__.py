@@ -1,0 +1,1 @@
+from . import moteur_de_recherche_elasticsearch_e_commerce

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Lecteur IA de Relevés Bancaires OCR -->
+        <record id="view_lecteur_ia_de_releves_bancaires_ocr_inherit" model="ir.ui.view">
+            <field name="name">account.bank.statement.import.inherit</field>
+            <field name="model">account.bank.statement.import</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Lecteur IA de Relevés Bancaires OCR">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

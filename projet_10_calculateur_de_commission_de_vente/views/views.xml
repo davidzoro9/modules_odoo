@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Calculateur de Commission de Vente -->
+        <record id="view_calculateur_de_commission_de_vente_inherit" model="ir.ui.view">
+            <field name="name">sale.order.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Calculateur de Commission de Vente">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

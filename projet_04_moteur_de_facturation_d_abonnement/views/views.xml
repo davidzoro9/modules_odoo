@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Moteur de Facturation d'Abonnement -->
+        <record id="view_moteur_de_facturation_d_abonnement_tree" model="ir.ui.view">
+            <field name="name">portfolio.moteur.de.facturation.d.abonnement.tree</field>
+            <field name="model">portfolio.moteur.de.facturation.d.abonnement</field>
+            <field name="arch" type="xml">
+                <list string="Moteur de Facturation d'Abonnement">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Moteur de Facturation d'Abonnement -->
+        <record id="view_moteur_de_facturation_d_abonnement_form" model="ir.ui.view">
+            <field name="name">portfolio.moteur.de.facturation.d.abonnement.form</field>
+            <field name="model">portfolio.moteur.de.facturation.d.abonnement</field>
+            <field name="arch" type="xml">
+                <form string="Moteur de Facturation d'Abonnement">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Moteur de Facturation d'Abonnement -->
+        <record id="action_moteur_de_facturation_d_abonnement" model="ir.actions.act_window">
+            <field name="name">Moteur de Facturation d'Abonnement</field>
+            <field name="res_model">portfolio.moteur.de.facturation.d.abonnement</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

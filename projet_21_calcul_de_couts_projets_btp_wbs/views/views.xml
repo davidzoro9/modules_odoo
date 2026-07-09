@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Calcul de Coûts Projets BTP (WBS) -->
+        <record id="view_calcul_de_couts_projets_btp_wbs_inherit" model="ir.ui.view">
+            <field name="name">project.task.inherit</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Calcul de Coûts Projets BTP (WBS)">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

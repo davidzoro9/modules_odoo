@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Anonymiseur de Base de Données RGPD -->
+        <record id="view_anonymiseur_de_base_de_donnees_rgpd_tree" model="ir.ui.view">
+            <field name="name">db.anonymizer.tree</field>
+            <field name="model">db.anonymizer</field>
+            <field name="arch" type="xml">
+                <list string="Anonymiseur de Base de Données RGPD">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Anonymiseur de Base de Données RGPD -->
+        <record id="view_anonymiseur_de_base_de_donnees_rgpd_form" model="ir.ui.view">
+            <field name="name">db.anonymizer.form</field>
+            <field name="model">db.anonymizer</field>
+            <field name="arch" type="xml">
+                <form string="Anonymiseur de Base de Données RGPD">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Anonymiseur de Base de Données RGPD -->
+        <record id="action_anonymiseur_de_base_de_donnees_rgpd" model="ir.actions.act_window">
+            <field name="name">Anonymiseur de Base de Données RGPD</field>
+            <field name="res_model">db.anonymizer</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,1 @@
+from . import planificateur_de_maintenance_d_actifs_iot

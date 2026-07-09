@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_moteur_de_facturation_d_abonnement,access_moteur_de_facturation_d_abonnement,model_portfolio_moteur_de_facturation_d_abonnement,base.group_user,1,1,1,1

@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_systeme_de_gestion_clinique_hospitaliere,access_systeme_de_gestion_clinique_hospitaliere,model_medical_consultation,base.group_user,1,1,1,1

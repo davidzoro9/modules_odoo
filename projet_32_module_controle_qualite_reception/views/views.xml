@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Module Contrôle Qualité Réception -->
+        <record id="view_module_controle_qualite_reception_inherit" model="ir.ui.view">
+            <field name="name">quality.check.inherit</field>
+            <field name="model">quality.check</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Module Contrôle Qualité Réception">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

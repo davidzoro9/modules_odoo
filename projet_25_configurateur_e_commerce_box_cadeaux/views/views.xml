@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Tree View for Configurateur E-Commerce Box Cadeaux -->
+        <record id="view_configurateur_e_commerce_box_cadeaux_tree" model="ir.ui.view">
+            <field name="name">portfolio.configurateur.e.commerce.box.cadeaux.tree</field>
+            <field name="model">portfolio.configurateur.e.commerce.box.cadeaux</field>
+            <field name="arch" type="xml">
+                <list string="Configurateur E-Commerce Box Cadeaux">
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Form View for Configurateur E-Commerce Box Cadeaux -->
+        <record id="view_configurateur_e_commerce_box_cadeaux_form" model="ir.ui.view">
+            <field name="name">portfolio.configurateur.e.commerce.box.cadeaux.form</field>
+            <field name="model">portfolio.configurateur.e.commerce.box.cadeaux</field>
+            <field name="arch" type="xml">
+                <form string="Configurateur E-Commerce Box Cadeaux">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action for Configurateur E-Commerce Box Cadeaux -->
+        <record id="action_configurateur_e_commerce_box_cadeaux" model="ir.actions.act_window">
+            <field name="name">Configurateur E-Commerce Box Cadeaux</field>
+            <field name="res_model">portfolio.configurateur.e.commerce.box.cadeaux</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

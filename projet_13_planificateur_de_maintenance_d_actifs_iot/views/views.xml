@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherited View for Planificateur de Maintenance d'Actifs IoT -->
+        <record id="view_planificateur_de_maintenance_d_actifs_iot_inherit" model="ir.ui.view">
+            <field name="name">maintenance.equipment.inherit</field>
+            <field name="model">maintenance.equipment</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Planificateur de Maintenance d'Actifs IoT">
+                        <!-- Custom fields or status added by portfolio module -->
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

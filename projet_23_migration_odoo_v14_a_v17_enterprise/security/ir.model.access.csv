@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_migration_odoo_v14_a_v17_enterprise,access_migration_odoo_v14_a_v17_enterprise,model_portfolio_migration_odoo_v14_a_v17_enterprise,base.group_user,1,1,1,1

@@ -1,0 +1,1 @@
+from . import chatbot_ia_support_client_vectoriel

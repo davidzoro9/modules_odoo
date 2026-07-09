@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import models, fields, api
 
-/* Code partiel d'un contrôleur de commande coffret */
+/* Code partiel d\'un contrôleur de commande coffret */
 class GiftBoxController(http.Controller):
     @http.route('/shop/giftbox/create', type='json', auth='public', website=True)
     def create_custom_giftbox(self, box_size_id, items_list):

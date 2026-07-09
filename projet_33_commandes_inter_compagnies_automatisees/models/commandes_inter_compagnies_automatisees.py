@@ -8,7 +8,7 @@ class SaleOrder(models.Model):
         res = super(SaleOrder, self).action_confirm()
         for order in self:
             if order.partner_id.is_subsidiary:
-                # Création automatique de la commande d'achat miroir
+                # Création automatique de la commande d\'achat miroir
                 self.env['purchase.order'].sudo().create({
                     'partner_id': order.company_id.partner_id.id, # La société vendeuse est le fournisseur
                     'company_id': order.partner_id.subsidiary_company_id.id,

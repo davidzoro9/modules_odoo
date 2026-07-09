@@ -12,7 +12,7 @@ class MedicalConsultation(models.Model):
 
     def action_complete_consultation(self):
         self.ensure_one()
-        # Création de l'acte de facturation automatique
+        # Création de l\'acte de facturation automatique
         invoice_lines = []
         for pres in self.prescription_ids:
             invoice_lines.append((0, 0, {

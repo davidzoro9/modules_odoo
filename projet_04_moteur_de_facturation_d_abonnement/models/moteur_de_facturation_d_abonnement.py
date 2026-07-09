@@ -15,7 +15,7 @@ class MoteurDeFacturationDAbonnement(models.Model):
                 'product_id': sub.product_id.id,
                 'price_unit': sub.price_unit,
             }))
-            # Ligne d'usage variable
+            # Ligne d\'usage variable
             invoice_lines.append((0, 0, {
                 'product_id': self.env.ref('saas.usage_product').id,
                 'price_unit': 0.05,

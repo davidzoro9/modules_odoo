@@ -5,7 +5,7 @@ class LivechatChatbot(models.Model):
     _inherit = 'im_livechat.channel'
 
     def get_ai_response(self, user_message):
-        # Génération d'embeddings et recherche de la FAQ Odoo la plus pertinente
+        # Génération d\'embeddings et recherche de la FAQ Odoo la plus pertinente
         embedding = self.env['ai.vector.service'].generate_embedding(user_message)
         faq_match = self.env['slide.slide'].search_vector_nearest(embedding, limit=1)
         
